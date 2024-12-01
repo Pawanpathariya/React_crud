@@ -1,0 +1,40 @@
+{
+  "cars": [
+    {
+      "id": "1",
+      "make": "Honda",
+      "model": "Accord",
+      "year": 2015
+    },
+    {
+      "id": "2",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2016
+    },
+    {
+      "id": "3",
+      "make": "Honda",
+      "model": "Civic",
+      "year": 2017
+    },
+    {
+      "id": "4",
+      "make": "Suzuki",
+      "model": "Swift",
+      "year": 2018
+    },
+    {
+      "id": "c81b",
+      "make": "Hyundai",
+      "model": "Creta",
+      "year": "2025"
+    },
+    {
+      "id": "7dcc",
+      "make": "Tata",
+      "model": "Safari",
+      "year": "2024"
+    }
+  ]
+}
