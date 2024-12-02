@@ -11,6 +11,7 @@
   color: white;
   display: flex;
   flex-direction: column;
+  padding-top: 50px;
 
   a{
     color: white;
@@ -21,8 +22,7 @@
     &:hover{
       background-color: white;
       color: #000;
-      padding-bottom: 20px;
-      padding-top: 20px;
+  
     }
   }
 }
@@ -72,7 +72,7 @@
 #cont{
   display: flex;
   flex-direction: column;
-  width: 100%;
+  width: 80%;
 }
 #display{
   margin-left: 400px;
@@ -116,3 +116,4 @@
     }
   }
 }
+

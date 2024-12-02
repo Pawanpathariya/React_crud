@@ -17,6 +17,8 @@ const submit=(e)=>{
   axios.post(api,input).then((res)=>{
       message.success("data inserted")
   })
+
+  input.value="";
 }
     return(
         <>

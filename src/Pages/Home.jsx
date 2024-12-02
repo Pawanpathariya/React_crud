@@ -1,8 +1,8 @@
-import img from "../Component/th.avif";
+import img from "../Component/th1.jpg";
 const Home=()=>{
     return(
         <>
-    <img src={img} alt="" width="90%" height="730px" style={{overflow:"hidden"}} />
+    <img src={img} alt="" width="80%" height="730px" style={{overflow:"hidden"}} />
         </>
     )
 }

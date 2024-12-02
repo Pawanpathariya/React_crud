@@ -47,7 +47,7 @@ Enter Car Name <input type="text" name="modelin" placeholder="Enter car Model" o
         </div>
 
 
-        <Table striped style={{width:"60%", marginLeft:"180px"}}>
+        <Table striped style={{width:"60%", marginLeft:"200px"}}>
       <thead>
         <tr>
           <th>Id</th>
