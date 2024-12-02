@@ -5,7 +5,7 @@
       "make": "Suzuki",
       "model": "Swift",
       "year": "2024",
-      "price": 810000
+      "price": "850000"
     },
     {
       "id": "6895",
@@ -41,6 +41,45 @@
       "model": "XUV 700",
       "year": "2024",
       "price": "1600000"
+    },
+    {
+      "id": "7ef1",
+      "make": "Kia",
+      "model": "Seltos",
+      "year": "2022",
+      "price": "1610000"
+    }
+  ],
+  "user": [
+    {
+      "id": "1",
+      "name": "Pawan Pathariya",
+      "email": "pawanpathariys@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "2",
+      "name": "Pawan Pathariya",
+      "email": "pawanpathariya@gmail.com",
+      "password": "12345"
+    },
+    {
+      "id": "3",
+      "name": "Sumit Mewada",
+      "email": "Sumit@gmail.com",
+      "password": "1234"
+    },
+    {
+      "id": "04e4",
+      "name": "Shivendra",
+      "email": "shivendra@gmail.com",
+      "password": "123"
+    },
+    {
+      "id": "bc15",
+      "name": "Aadesh",
+      "email": "aadesh@gmail.com",
+      "password": "12345"
     }
   ]
 }
