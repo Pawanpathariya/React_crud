@@ -5,8 +5,13 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
 import { message } from "antd";
+import { useNavigate } from "react-router-dom";
 const Update=()=>{
+    const navigate=useNavigate();
     const [data,mydata]=useState([]);
+    const myEdit=(id)=>{
+        navigate(`/edit/${id}`);
+    }
 
     const getdata=()=>{
         let api="http://localhost:3000/cars";
@@ -18,11 +23,11 @@ const Update=()=>{
 const ans=data.map((item)=>{
     return(
         <tr>
-            <td >{item.id}</td>
             <td>{item.make}</td>
             <td>{item.model}</td>
             <td>{item.year}</td>
-            <td ><FontAwesomeIcon icon={faPenToSquare} /></td>
+            <td >{item.price}</td>
+            <td onClick={()=>{myEdit(item.id)}} ><FontAwesomeIcon icon={faPenToSquare} /></td>
             <td onClick={()=>{deldata(item.id)}}><FontAwesomeIcon icon={faTrash} /></td>
         </tr>
     )
@@ -40,13 +45,13 @@ const ans=data.map((item)=>{
 
     return(
         <>
-          <Table striped style={{width:"60%", marginLeft:"180px"}}>
+          <Table striped style={{width:"60%", marginLeft:"180px", fontSize:"20px"}}>
       <thead>
         <tr>
-          <th>Id</th>
           <th>Maker</th>
           <th>Model</th>
           <th>Year</th>
+          <th>Price</th>
           <th>Edit</th>
           <th>Delete</th>
         </tr>

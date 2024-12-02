@@ -12,6 +12,7 @@
   display: flex;
   flex-direction: column;
   padding-top: 50px;
+  position: sticky;
 
   a{
     display: flex;
@@ -43,13 +44,13 @@
 
 #insert{
   margin-left: 350px;
-  margin-top: 100px;
+  margin-top: 70px;
   gap: 10px;
   display: flex;
   flex-direction: column;
   border: 2px solid black;
   padding: 50px;
-  height: 500px;
+  height: 600px;
   text-align: center;
   background-color: #273233;
   color: white;
@@ -57,7 +58,7 @@
    
   input{
     width: 400px;
-    height: 40px;
+    height: 70px;
 
     &::placeholder{
       text-align: center;
@@ -73,6 +74,13 @@
 
   button{
     height: 40px;
+    width: 100px;
+    margin-left: 40%;
+    padding: 10px;
+    background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  blueviolet;
     &:hover{
       background-color: #273233;
       color: white;
@@ -93,8 +101,9 @@
   display: flex;
   flex-direction: column;
   border: 2px solid black;
-  padding: 50px;
-  height: 200px;
+  padding: 30px;
+  padding-left: 50px;
+  height: 230px;
   width: 400px;
   text-align: center;
   background-color: #273233;
@@ -104,7 +113,7 @@
   
   input{
     width: 300px;
-    height: 50px;
+    height: 40px;
 
     &::placeholder{
       text-align: center;
@@ -120,6 +129,14 @@
 
   button{
     height: 40px;
+    width: 100px;
+    margin-left: 35%;
+
+    padding: 10px;
+    background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  blueviolet;
     &:hover{
       background-color: #273233;
       color: white;
@@ -127,4 +144,104 @@
     }
   }
 }
+#box{
+  position: fixed;
+  background: url("../Component/th1.jpg");
+  height: 100vh;
+  width: 100vw;
+}
 
+#login{
+  opacity: 0.8;
+  margin-left: 40%;
+  margin-top: 130px;
+  margin-bottom: 40px;
+  gap: 10px;
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  padding: 30px;
+  padding-left: 50px;
+  height: 450px;
+  width: 500px;
+  text-align: center;
+  background-color: #273233;
+  color: white;
+  box-shadow: 5px 5px 5px 5px black;
+  text-align: center;
+
+  input{
+    text-align: center;
+    height: 50px;
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+
+  button{
+    height: 40px;
+    width: 100px;
+    margin-left: 25%;
+
+    padding: 10px;
+    background-color: aqua;
+  border: none;
+  border-radius: 10px;
+  box-shadow: 2px 2px 2px 2px  blueviolet;
+    &:hover{
+      background-color: #273233;
+      color: white;
+      box-shadow: 2px 2px 2px 2px black;
+    }
+  }
+
+  }
+
+  #register{
+    opacity: 0.8;
+    margin-left: 40%;
+    margin-top: 130px;
+    margin-bottom: 40px;
+    gap: 10px;
+    display: flex;
+    flex-direction: column;
+    border: 2px solid black;
+    padding: 30px;
+    padding-left: 50px;
+    height: 500px;
+    width: 500px;
+    text-align: center;
+    background-color: #273233;
+    color: white;
+    box-shadow: 5px 5px 5px 5px black;
+    text-align: center;
+
+    input{    
+      text-align: center;
+      height: 50px;
+      &:hover{
+        background-color: #273233;
+        color: white;
+        box-shadow: 2px 2px 2px 2px black;
+      }
+    }
+
+    button{
+      height: 40px;
+      width: 100px;
+      margin-left: 40%;
+
+      padding: 10px;
+      background-color: aqua;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 2px 2px 2px 2px  blueviolet;
+      &:hover{
+        background-color: #273233;
+        color: white;
+        box-shadow: 2px 2px 2px 2px black;
+      }
+    }
+  }

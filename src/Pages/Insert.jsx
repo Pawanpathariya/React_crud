@@ -26,6 +26,7 @@ const submit=(e)=>{
            Enter Car Maker <input type="text" name="make" onChange={handle} placeholder="Enter car Maker"/> <br />
            Enter Car Model <input type="text" name="model" onChange={handle} placeholder="Enter car Model" /> <br />
            Enter Manufacture year <input type="text"  name="year" onChange={handle} placeholder="Enter Car Manufacturing Year"/> <br />
+           Enter Car Price <input type="text"  name="price" onChange={handle} placeholder="Enter Car Price"/> <br />
            <button onClick={submit}>Insert</button>
         </div>
         </>

@@ -1,8 +1,10 @@
 import { Link, Outlet } from "react-router-dom";
+import Topbar from "./Topbar";
 
 const Sidebar = () => {
     return (
         <>
+        <Topbar/>
             <div id="wrapper">
                 <div id="sidebar">
                     <Link to="/home"><i class="fa-solid fa-house" style={{ paddingRight: "20px", fontSize: "25px",color:"white" }}/>Home</Link>
