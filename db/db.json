@@ -80,6 +80,12 @@
       "name": "Aadesh",
       "email": "aadesh@gmail.com",
       "password": "12345"
+    },
+    {
+      "id": "e88e",
+      "name": "Shivansh",
+      "email": "shivansh@gmail.com",
+      "password": "1234"
     }
   ]
 }
