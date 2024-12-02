@@ -7,8 +7,8 @@ const Topbar=()=>{
     return(
         <>
        <Navbar className="bg-body-tertiary" data-bs-theme="dark" style={{height:"70px"}} >
-      <Container>
-        <Navbar.Brand to="" ><FontAwesomeIcon icon={faCar} style={{paddingRight:"20px", fontSize:"30px"}}/> Car Dashboard</Navbar.Brand>
+      <Container fluid style={{display:"flex",marginLeft:"115px"}}>
+        <Navbar.Brand to="" ><i class="fa-solid fa-car" style={{color:"white", paddingRight:"10px" ,fontSize:"30px"}}/> Car Dashboard</Navbar.Brand>
         <Navbar.Toggle />
         <Navbar.Collapse className="justify-content-end">
           <Navbar.Text>

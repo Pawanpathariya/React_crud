@@ -7,12 +7,6 @@
       "year": "2024"
     },
     {
-      "id": "b521",
-      "make": "Suzuki",
-      "model": "Fronx",
-      "year": "2023"
-    },
-    {
       "id": "6895",
       "make": "Suzuki",
       "model": "Fronx",
@@ -29,6 +23,12 @@
       "make": "Tata",
       "model": "Punch",
       "year": "2023"
+    },
+    {
+      "id": "445b",
+      "make": "Hyundai",
+      "model": "Verna",
+      "year": "2024"
     }
   ]
 }
