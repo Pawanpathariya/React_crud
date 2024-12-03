@@ -55,6 +55,7 @@
   background-color: #273233;
   color: white;
   box-shadow: 5px 5px 5px 5px black;
+  border-radius: 20px;
    
   input{
     width: 400px;
@@ -109,7 +110,7 @@
   background-color: #273233;
   color: white;
   box-shadow: 5px 5px 5px 5px black;
-
+  border-radius: 20px;
   
   input{
     width: 300px;
