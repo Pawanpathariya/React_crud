@@ -14,10 +14,10 @@ const Layout=()=>{
        
        <BrowserRouter>
                 <Routes>
+                    <Route index element={<Login/>}></Route>
                     <Route path="login" element={<Login/>}></Route>
                     <Route path="register" element={<Register/>}></Route>
                     <Route path="/" element={<Sidebar/>}>
-                    <Route index element={<Home/>}/>
                     <Route path="home" element={<Home/>}/>
                     <Route path="display" element={<Display/>}/>    
                     <Route path="insert" element={<Insert/>}/>    

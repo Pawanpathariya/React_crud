@@ -32,7 +32,7 @@
       "id": "445b",
       "make": "Hyundai",
       "model": "Verna",
-      "year": "2024",
+      "year": "2022",
       "price": 950000
     },
     {
@@ -48,6 +48,13 @@
       "model": "Seltos",
       "year": "2022",
       "price": "1610000"
+    },
+    {
+      "id": "f7e9",
+      "make": "Tata",
+      "model": "Harier",
+      "year": "2025",
+      "price": "1800000"
     }
   ],
   "user": [
