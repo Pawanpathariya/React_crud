@@ -24,7 +24,7 @@ const ans=data.map((item)=>{
     useEffect(()=>{
         getdata();
     },[])
-
+ 
     return(
         <>
         <Table striped style={{width:"60%", marginLeft:"180px" ,fontSize:"20px"}}>

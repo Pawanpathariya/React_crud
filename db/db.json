@@ -55,6 +55,13 @@
       "model": "Fortuner",
       "year": "2025",
       "price": "4500000"
+    },
+    {
+      "id": "fa86",
+      "make": "Hyundai",
+      "model": "Exter",
+      "year": "2024",
+      "price": "700000"
     }
   ],
   "user": [
@@ -93,6 +100,12 @@
       "name": "Shivansh",
       "email": "shivansh@gmail.com",
       "password": "1234"
+    },
+    {
+      "id": "2dfd",
+      "name": "Pawan",
+      "email": "pawan@gmail.com",
+      "password": "12345"
     }
   ]
 }
