@@ -2,6 +2,7 @@ import { useParams } from "react-router-dom";
 import { useState, useEffect } from "react";
 import axios from "axios";
 import { message } from "antd";
+import { useNavigate } from "react-router-dom";
 const Edit=()=>{
 const [mydata, setMydata]=useState({});
 const {id} =useParams();
@@ -12,6 +13,12 @@ const loadData=()=>{
         console.log(res.data);
     })
 }
+const navigate=useNavigate();
+useEffect(()=>{
+    if(!localStorage.getItem("name")){
+        navigate("/login");
+    } 
+},[])
 useEffect(()=>{
     loadData();
 }, []);

@@ -1,9 +1,15 @@
 import axios from "axios";
 import { useEffect, useState } from "react";
 import { Table } from "react-bootstrap";
+import { useNavigate } from "react-router-dom";
 const Display=()=>{
     const [data,mydata]=useState([]);
-
+    const navigate=useNavigate();
+    useEffect(()=>{
+        if(!localStorage.getItem("name")){
+            navigate("/login");
+        } 
+    },[])
     const getdata=()=>{
         let api="http://localhost:3000/cars";
         axios.get(api).then((res)=>{

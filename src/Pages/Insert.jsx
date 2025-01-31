@@ -1,9 +1,15 @@
 import { message } from "antd";
 import axios from "axios";
-import { useState } from "react";
+import { useState,useEffect } from "react";
+import { useNavigate } from "react-router-dom";
 const Insert=()=>{
     const [input,setinput]=useState({});
-
+    const navigate=useNavigate();
+    useEffect(()=>{
+        if(!localStorage.getItem("name")){
+            navigate("/login");
+        } 
+    },[])
 const handle=(e)=>{
     let name=e.target.name;
     let value=e.target.value;

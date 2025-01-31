@@ -1,11 +1,17 @@
-import { useState } from "react";
+import { useState,useEffect } from "react";
 import { message } from "antd";
 import { Table } from "react-bootstrap";
 import axios from "axios";
+import { useNavigate } from "react-router-dom";
 const Search=()=>{
     const [disdata,setdisdata]=useState([]);
      const [input,setinput]=useState({});
-
+     const navigate=useNavigate();
+     useEffect(()=>{
+         if(!localStorage.getItem("name")){
+             navigate("/login");
+         } 
+     },[])
      const handle=(e)=>{     
         let name=e.target.name;     
         let value=e.target.value;     

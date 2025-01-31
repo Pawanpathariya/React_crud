@@ -12,7 +12,11 @@ const Update=()=>{
     const myEdit=(id)=>{
         navigate(`/edit/${id}`);
     }
-
+    useEffect(()=>{
+        if(!localStorage.getItem("name")){
+            navigate("/login");
+        } 
+    },[])
     const getdata=()=>{
         let api="http://localhost:3000/cars";
         axios.get(api).then((res)=>{
